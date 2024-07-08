@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <audio id="myAudio">
+      <source src="hy.mp3" type="audio/mp3" />
+      <audio id="finsound"><source src="finish.mp3" type="" /></audio>
+    </audio>
+    <div class="main-container">
+      <button onclick="darkmode()" id="moonicon">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <h2>To-Do List</h2>
+      <div class="inbox">
+        <input
+          type="text"
+          name="input"
+          id="input-box"
+          placeholder="Enter The Task"
+          maxlength="35"
+        />
+        <button class="btnn" onclick="btn()">Add</button>
+      </div>
+      <div class="box">
+        <div class="list">
+          <div class="content"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js">
+         </script>
+    <script
+      src="https://kit.fontawesome.com/43b22af391.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
